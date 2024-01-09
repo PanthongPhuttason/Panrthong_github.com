@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+
+.logo span{
+    color: #7d2ae8;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: #7d2ae8;
+} 
+
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+
+.content {
+    max-width: 500px;
+    color: #555;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h2 span {
+    color: #7d2ae8;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #7d2ae8;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    border: 1px solid #fff;
+    outline: 2px solid #7d2ae8;
+    transition: .3s;
+}
+.social-icons a:hover {
+    transform: translateY(-5px);
+}
+
+.social-icons a i {
+    color:#fff;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+#about {
+    background-color: #fff; /* สีพื้นหลังสำหรับกล่อง About */
+}
+
+#contact {
+    background-color: #fff; /* สีพื้นหลังสำหรับกล่อง Contact */
+}
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/abstract-textured-backgound.jpg);
+    background-size: cover;
+}
+.boxaboutme{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 940px;
+    height: 500px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.boxaboutme h1{
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 1rem #000000;
+}
+.boxaboutme h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 1rem #000000;
+}
+.boxaboutme p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+.imgabout{
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/2.png");
+    background-position: center;
+    background-size: cover;
+}
+/* เพิ่มส่วนนี้ในไฟล์ style.css ของคุณ */
+
+.content-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/abstract-textured-backgound.jpg);
+    background-size: cover;
+}
+
+.boxcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textcontent {
+    width: 940px;
+    height: 500px;
+    padding: 30px;
+    background-color: #8f8f8f;
+}
+.textcontent h1{
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-shadow: 0 0 1rem #000000;
+}
+.textcontent h2{
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 1rem #000000;
+}
+.textcontent p{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+
+.imgcontent img {
+    max-width: 100%;
+    height: auto;
+}
+
